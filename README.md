@@ -1,7 +1,3 @@
-Certainly! Here's a README file for a web UI that classifies cat and dog images using a CNN, with a focus on using Poetry for dependency management and project setup:
-
----
-
 # Cat-Dog Image Classifier Web UI
 
 This is a web-based user interface for classifying images as either a cat or a dog. It utilizes a Convolutional Neural Network (CNN) for image classification. Users can upload an image, and the model will predict whether it's a cat or a dog.

@@ -1,0 +1,35 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore Python environment
+.venv/
+venv/
+.venv
+*.env
+
+# Ignore logs and log files
+*.log
+log/
+
+# Ignore system and IDE-specific files
+__pycache__/
+*.DS_Store
+*.idea/
+.vscode/
+
+# Ignore package dependencies managed by Poetry
+poetry.lock
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore virtual environment files
+Pipfile
+Pipfile.lock
+
+# Ignore local development settings
+.env.local
+.env.local.*
