@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "cat-dog-classifier"
 version = "0.1.0"
-description = "Repo to build a webUI to classify cat and dogs images"
-authors = ["Your Name <you@example.com>"]
+description = ""
+authors = ["Alejandro-86 <aalonsocanales@gmail.com>"]
 readme = "README.md"
 packages = [{include = "cat_dog_classifier"}]
 
