@@ -36,3 +36,9 @@ Pipfile.lock
 
 # Ignore cached files
 *.mypy_cache/
+
+# Ignore credentials file
+credentials.json
+
+# Ignore dataset files
+dataset/

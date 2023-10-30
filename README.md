@@ -48,6 +48,45 @@ Before you begin, ensure you have Poetry installed. You can install Poetry by fo
    poetry shell
    ```
 
+## If you want to train the model by yourself, please follow the steps below.
+### Data download.
+
+You can download the data from [Here](https://drive.google.com/drive/folders/1AffYjpSNO8PUzPKZ3ZFzXk5sefXIc1X2) or use the script to download the data from Google Drive.
+
+To use the script to download the data from Google Drive:
+
+1. You need to enable the Drive API to use the script. The enabling instructions can be found on [Python Quickstart](https://developers.google.com/drive/api/quickstart/python). The credentials.json file will be needed in the working directory.
+
+2. the Run the script to download the data:
+
+   ```bash
+   python /data/download_data.py 1AffYjpSNO8PUzPKZ3ZFzXk5sefXIc1X2
+   ```
+
+### Data exploration and preparation.
+
+1. We use jupyter notebook to prepare the data. You can install jupyter notebook by following the instructions [here](https://jupyter.org/install).
+
+2. Run the jupyter notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+3. Open the notebook file `data_preparation.ipynb` and run the cells to prepare the data.
+
+### Model Training
+
+The pre-trained CNN model used in this project was trained on a dataset of cat and dog images. If you wish to retrain the model or fine-tune it for your specific use case, you can follow these steps:
+
+1. Collect a dataset of cat and dog images.
+
+2. Train the model using your dataset and save it.
+
+3. Replace the pre-trained model file in the `models/` directory with your trained model.
+
+4. Update the model loading code in `app.py` to load your custom model.
+
 ## Usage
 
 1. Start the web application:
@@ -62,17 +101,7 @@ Before you begin, ensure you have Poetry installed. You can install Poetry by fo
 
 4. Click the "Classify" button to get the prediction.
 
-## Model Training
 
-The pre-trained CNN model used in this project was trained on a dataset of cat and dog images. If you wish to retrain the model or fine-tune it for your specific use case, you can follow these steps:
-
-1. Collect a dataset of cat and dog images.
-
-2. Train the model using your dataset and save it.
-
-3. Replace the pre-trained model file in the `models/` directory with your trained model.
-
-4. Update the model loading code in `app.py` to load your custom model.
 
 ## Contributing
 
