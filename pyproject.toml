@@ -7,11 +7,18 @@ readme = "README.md"
 packages = [{include = "cat_dog_classifier"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.13"
 notebook = "^7.0.6"
 google-api-python-client = "^2.105.0"
 google-auth-oauthlib = "^1.1.0"
 matplotlib = "^3.8.0"
+pandas = "^2.1.2"
+imblearn = "^0.0"
+numpy = "^1.26.1"
+scikit-image = "^0.22.0"
+torch = "^2.1.0"
+torchvision = "^0.16.0"
+tensorboard = "^2.15.0"
 
 
 [tool.poetry.group.dev.dependencies]
