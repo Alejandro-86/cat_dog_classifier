@@ -19,6 +19,7 @@ scikit-image = "^0.22.0"
 torch = "^2.1.0"
 torchvision = "^0.16.0"
 tensorboard = "^2.15.0"
+tqdm = "^4.66.1"
 
 
 [tool.poetry.group.dev.dependencies]
